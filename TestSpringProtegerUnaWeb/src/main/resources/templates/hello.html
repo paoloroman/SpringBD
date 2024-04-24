@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 	xmlns:th="https://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+<head>
+<link rel="stylesheet" type="text/css" th:href="@{/estilo.css}">
+<title>OTRA PÁGINA</title>
+</head>
+<body>
+	<h1 th:inline="text">YA ESTAS  <span th:remove="tag" sec:authentication="name"> EN LA OTRA PÁGINA</span>!</h1>
+	<h2>BIENVENIDO</h2>
+	<p>Un tigre que cuando cachorro habia sido capturado por humanos
+		fue liberado luego de varios años de vida domestica. La vida entre los
+		hombres no habia menguado sus fuerzas ni sus instintos; en cuanto lo
+		liberaron, corrio a la selva. Ya en la espesura, sus hermanos
+		teniéndolo otra vez entre ellos, le preguntaron: -¿Que has aprendido?
+
+		El tigre medito sin prisa. Quería transmitirles algún concepto sabio,
+		trascendente. Recordó un comentario humano: "Los tigres no son
+		inmortales. Creen que son inmortales porque ignoran la muerte, ignoran
+		que morirán." Ah, pensó el tigre para sus adentros, ese es un
+		pensamiento que los sorprenderá: no somos inmortales, la vida no es
+		eterna. -Aprendí esto- dijo por fin-. No somos inmortales solo
+		ignoramos que alguna vez vamos a.... Los otros tigres no lo dejaron
+		terminar de hablar, se abalanzaron sobre el, le mordieron el cuello y
+		lo vieron desangrarse hasta morir. Es el problema de los enfermos de
+		muerte -dijo uno de los felinos-. Se tornan resentidos y quieren
+		contagiar a todos.'' Marcelo Birmajer, El tigre enfermo</p>
+	<form th:action="@{/logout}" method="post">
+		<input type="submit" value="Sign Out" />
+	</form>
+</body>
+</html>

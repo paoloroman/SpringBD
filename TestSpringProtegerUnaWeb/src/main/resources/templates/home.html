@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml"  xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<link rel="stylesheet" type="text/css" th:href="@{/estilo.css}">
+		<title>SPRING EJEMPLO DE SEGURIDAD</title>
+	</head>
+<body>
+	<h1>Bienvenido</h1>
+	<h2>A está Página Web Protegida</h2>
+	<p>Before you can apply security to a web application, you need a
+		web application to secure. This section walks you through creating a
+		simple web application. Then you will secure it with Spring Security
+		in the next section.</p>
+	<div>
+		<p>
+			Enlace a otra página<a th:href="@{/hello}"> Clicka </a>
+		</p>
+	</div>
+</body>
+</html>

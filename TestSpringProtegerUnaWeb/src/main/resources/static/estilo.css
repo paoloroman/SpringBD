@@ -1,0 +1,20 @@
+h1,h2 {
+	color:white;
+	background-color: black;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+body {
+	background-color: green;
+}
+
+div {
+	margin-left: 50%;
+	margin-right: 50%;
+	background-color: blue;
+}
+p {
+ 	color:white;
+	background-color: maroon;
+}
