@@ -1,4 +1,4 @@
-package OpenWebinars;
+package UsodeXMLbeans;
 
 public interface IEmailService {
 

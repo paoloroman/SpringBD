@@ -1,4 +1,4 @@
-package OpenWebinars;
+package UsodeXMLbeans;
 
 public class EmailService implements IEmailService {
 	private Saludator saludator;

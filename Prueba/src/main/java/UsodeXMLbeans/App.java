@@ -1,4 +1,4 @@
-package OpenWebinars;
+package UsodeXMLbeans;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
